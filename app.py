@@ -48,7 +48,7 @@ with search:
 
         if button:
             mq = marqo.Client(url=endpoint)
-            results = mq.index("inventory").search(query)
+            results = mq.index("inventory").search(query, limit=top_k)
             st.write(results)
 
     elif search_option == 'Image Search':
