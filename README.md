@@ -1,6 +1,9 @@
 # E-Commerce Inventory Tensor Search - Powered By Marqo!
 Marqo lets you search text or images in your Streamlit app, using it's [tensor search framework](https://github.com/marqo-ai/marqo).
 
+[comment]: <> (Insert gif)
+![seach_demo_gif](static/demo-gif.gif)
+
 ## Installation
 1. Marqo requires docker. Install [docker](https://docs.docker.com/get-docker/)
 2. Use docker to run Marqo:
@@ -19,4 +22,7 @@ pip install marqo
 
 5. To index the e-commerce in _data/data.json_ checkout the [Marqo documentation](https://marqo.pages.dev/)
 
-6. Run app using ```streamlit run app.py```
+6. Run app using 
+```bash
+streamlit run app.py
+```
